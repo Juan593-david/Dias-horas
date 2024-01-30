@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Horas</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      overflow-x: auto;
+    }
+
+    th, td {
+      border: 5px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+      border: solid #000 2px;
+    }
+
+    th {
+      background-color: #7A89A7;
+    }
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      width: 100%;
+      border: solid #000 1px;
+      padding: 2px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      /* Estilos adicionales para pantallas pequeñas */
+      table {
+        overflow-x: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+  <table id="horasTable">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Día 1 (Lunes)</th>
+        <th>Día 2 (Martes)</th>
+        <th>Día 3 (Miércoles)</th>
+        <th>Día 4 (Jueves)</th>
+        <th>Día 5 (Viernes)</th>
+        <strong><th> Total Día</th></strong>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong><font color="#2C57AD">H</font>ora 1</strong></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><strong><font color="#2C57AD">H</font>ora 2</strong></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><strong><font color="#2C57AD">H</font>ora 3</strong></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><strong><font color="#2C57AD">H</font>ora 4</strong></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><strong><font color="#2C57AD">H</font>ora 5</strong></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><strong><font color="#2C57AD">H</font>ora 6</strong></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><strong><font color="#2C57AD">H</font>ora 7</strong></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><strong><font color="#2C57AD">H</font>ora 8</strong></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="number" min="0" max="60" placeholder="0"></td>
+        <td><input type="text" disabled></td>
+      </tr>
+      <tr>
+        <td><strong><font color="#2C57AD">T</font>otal <font color="#2C57AD">H</font>oras</strong></td>
+        <td><input type="text" disabled></td>
+        <td><input type="text" disabled></td>
+        <td><input type="text" disabled></td>
+        <td><input type="text" disabled></td>
+        <td><input type="text" disabled></td>
+        <td><input type="text" disabled id="totalFinal"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script>
+    document.addEventListener('input', function (e) {
+      if (e.target.tagName === 'INPUT' && e.target.type === 'number') {
+        calculateTotal();
+      }
+    });
+
+    function calculateTotal() {
+      const table = document.getElementById('horasTable');
+      const numRows = table.rows.length;
+      const numCols = table.rows[0].cells.length - 2; // Ignorar la primera y última celda en cada fila
+
+      for (let col = 1; col <= numCols; col++) {
+        let totalMinutes = 0;
+
+        for (let row = 1; row < numRows - 1; row++) {
+          const inputCell = table.rows[row].cells[col].querySelector('input');
+          const minutes = parseInt(inputCell.value) || 0;
+          totalMinutes += minutes;
+
+          // Actualizar la celda "Total Día" en cada columna
+          const totalCell = table.rows[row].cells[numCols + 1].querySelector('input');
+          const totalHours = Math.floor(totalMinutes / 60);
+          const remainingMinutes = totalMinutes % 60;
+          totalCell.value = totalHours + 'h ' + remainingMinutes + 'min';
+        }
+
+        // Actualizar la celda "Total Semana" en la última columna
+        const totalCell = table.rows[numRows - 1].cells[col].querySelector('input');
+        const totalHours = Math.floor(totalMinutes / 60);
+        const remainingMinutes = totalMinutes % 60;
+        totalCell.value = totalHours + 'h ' + remainingMinutes + 'min';
+      }
+
+      // Calcular el total final
+      let totalFinalMinutes = 0;
+      for (let row = 1; row < numRows - 1; row++) {
+        for (let col = 1; col <= numCols; col++) {
+          const inputCell = table.rows[row].cells[col].querySelector('input');
+          const minutes = parseInt(inputCell.value) || 0;
+          totalFinalMinutes += minutes;
+        }
+      }
+
+      const totalFinalCell = table.rows[numRows - 1].cells[numCols + 1].querySelector('input#totalFinal');
+      const totalFinalHours = Math.floor(totalFinalMinutes / 60);
+      const remainingFinalMinutes = totalFinalMinutes % 60;
+
+      totalFinalCell.value = totalFinalHours + 'h ' + remainingFinalMinutes + 'min';
+    }
+  </script>
+
+</body>
+</html>
